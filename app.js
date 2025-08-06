@@ -17,7 +17,7 @@ formEl.addEventListener('submit', function (e) {
     e.preventDefault()
 
     let correctLogin = "javohir"
-    let correctPass = '3011'
+    let correctPass = '8060'
     
     if(loginEl.value === correctLogin && passEl.value === correctPass) {
         window.location.href = "./result.html"
